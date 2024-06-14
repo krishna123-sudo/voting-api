@@ -1,0 +1,8 @@
+.Banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9vh;
+    font-size: large;
+    background-color: burlywood;
+}

@@ -1,0 +1,63 @@
+.loginForm {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-left: 33%;
+}
+
+.loginForm div {
+    margin-bottom: 15px;
+}
+
+.loginForm div div {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.loginForm input[type='text'],
+.loginForm input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.loginForm input[type='text']:focus,
+.loginForm input[type='password']:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.loginForm .login {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.loginForm .login:hover {
+    background-color: #0056b3;
+}
+
+.loginForm .login:active {
+    background-color: #004085;
+}
+
+.register{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(245, 35, 94);
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+}
